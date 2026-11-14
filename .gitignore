@@ -1,0 +1,23 @@
+# Compiler / Build
+out/
+cache/
+artifacts/
+broadcast/
+
+# Dependencies
+# (lib submodule pointers are tracked, not build artifacts)
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
